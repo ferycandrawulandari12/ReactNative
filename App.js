@@ -12,12 +12,14 @@ import {
   View,
   Image
 } from 'react-native';
+import Judul from './Components/Judul';
 
 type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+      <Judul title = "BIODATA"/>
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>

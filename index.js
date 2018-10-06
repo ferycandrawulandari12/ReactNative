@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
+import Biodata from './Screens/Biodata';
 
-AppRegistry.registerComponent('tararam', () => App);
+AppRegistry.registerComponent('tararam', () => Biodata);
